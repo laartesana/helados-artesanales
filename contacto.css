@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:rgb(254,214, 215) ;
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.btn{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.boton-chat{
+    /* background: #1d1a1a; */
+    /* justify-content: center; */
+    /* align-items: center;*/
+    border: 3px solid rgba(100,100,100,0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    padding: 20px;
+    width: 300px;
+    /* font-family: 'airal'; */
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 300%;
+    transition: 2s;
+    background-image:linear-gradient(to left, #ffcae3,#ff499d,#ffcae3);
+ }
+ .boton-chat:hover{
+    background-position: right;
+ }
+a{
+    font-size: 3em;
+}
+ .WhatsApp{
+padding-bottom: 30px;
+}
+.instagram{
+    padding-bottom:30px;
+ 
+}
+.column{
+    width: 99%;
+}
+.logoimg{
+    width: 90px;
+
+}
